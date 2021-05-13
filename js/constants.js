@@ -1,0 +1,3 @@
+const SPEED = 5;
+const ENEMYSPEED = 3;
+const BACKGROUNDSPEED = 4;

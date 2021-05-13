@@ -1,0 +1,82 @@
+body{
+    overflow: hidden;
+}
+
+#start {
+    background-color: teal;
+    color: white;
+    height: 300px;
+    width: 400px;
+    display: block;
+    border-radius: 25px;
+    position: absolute;
+    z-index: 990;
+    top: 50%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    
+}
+
+#start>h1{
+    position: absolute;
+    width: 300px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#start>p{
+    position: absolute;
+    width: 350px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+/* Game Background */
+#background{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: burlywood;
+}
+
+/* Road */
+
+#road{
+    width: 600px;
+    height: 100vh;
+    background: darkslateblue;
+    margin: 0 auto;
+    /* display: inline-block; */
+    
+}
+
+/* partitions */
+.partition-block{
+    width: 10px;
+    height:50px;
+    position: absolute;
+    background: #fff;
+    margin-left: 200px;  
+
+}
+
+/* cars */
+.car, .mycar{
+    width: 60px;
+    height: 90px;
+    /* background: #a11; */
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 99;
+}
+
+.mycar{
+
+    background-image: url(../assets/mycar.png);
+    bottom: 50px;
+    left: 635px;
+}
